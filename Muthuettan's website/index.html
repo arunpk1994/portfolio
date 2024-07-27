@@ -1,0 +1,239 @@
+<!DOCTYPE html html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mywebsite</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ad67d15048.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                   
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#portfolio">Wrok Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            <div class="header-text">
+                <h1><br><span>Arun Panamabrakandy</span></h1>
+                <BR>
+                <p>Assistant Purchaser / Data Analyst</p>
+                
+            </div>
+            </div>
+        </div>
+    
+
+
+        <div id="About">
+            <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="new image.jpg">
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Dedicated and results-oriented Assistant Purchaser cum Data Controller FMCG with over 5 years of
+                        experience in procurement and data management. Proven track record of efficiently handling purchasing
+                        activities, maintaining accurate records, and optimizing data systems. Adept at streamlining processes to
+                        improve efficiency and reduce costs. Excellent communication and analytical skills with a keen attention
+                        to detail. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">General Skills</p>
+                        <p class="tab-links" onclick="opentab('Excel')">Excel</p>
+                        <!-- <p class="tab-links" onclick="opentab('Experience')">Experience</p> -->
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FMCG Products Knowledge</span><br></li>
+                            <li><span>Contract negotiation and administration</span><br></li>
+                            <li><span>Data entry and analysis</span><br></li>
+                            <li><span>Cost control and savings</span><br></li>
+                            <li><span>Computer Knowledge</span><br></li>
+                            <li><span>Missing Logistics</span><br></li>
+                            <li><span>Export Documents (COO, EUR1)</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Excel">
+                        <ul>
+                            <li><span> Formulas</span><br>Index, VLOOKUP +Advanced ,VBA Code</li>
+                            <li><span>Consolidating Fills</span><br></li>
+                            <li><span>Barcode Development</span><br></li>
+                            <li><span>Soft Wear Updating</span><br></li>
+                            <li><span>Upload Files, Price Change Files</span><br></li>
+                            
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="Excel">
+                        <ul>
+                            <li><span></span><br>Luminar Technolab Kochi-2023-24</li>
+                            <li><span>Batchelor of computer application(BCA)</span><br>Silver Arts And Science College-2020-23</li>
+                            <li><span>Higher Secondary Diploma</span><br>Nochat Higher Secondary School</li>
+                            <li><span>Secondary Diploma</span><br>Nochat Higher Secondary School</li>
+                        </ul>
+                    </div> -->
+
+
+                </div>
+
+
+               </div>
+            </div> 
+
+        </div>
+       <! ----------------services----------- -->
+
+       <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Product Purchasing / Cost Controlling</p>
+                    <a href="#"></a>
+                </div>
+
+              
+
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Visualization</h2>
+                    <p>For wedding photo editing and portraits</p>
+                    <a href="#"></a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Profit Management</h2>
+                    <p>Optimizing revenue / reducing costs.</p>
+                    <a href="#"></a>
+                </div>
+
+            </div>
+
+
+        </div>
+       </div>
+ <!----------------portfolio------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Work Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image 1.jpg">
+
+                <div class="layer">
+                    <h3>Cost Negotiation</h3>
+                    <p>Negotiating prices, minimizing expenses effectively</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="image 2.jpg">
+                <div class="layer">
+                    <h3>Marketing & Recomendation</h3>
+                    <p>Creating campaigns, providing strategic recommendations.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="image6.jpeg">
+                <div class="layer">
+                    <h3>Data Engineer</h3>
+                    <p>Designing, building, and maintaining data systems</p>
+                    <a href="https://abhaykrishna200326.github.io/portfolio/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+
+</div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+    </body>
+</html>
+
+<!------------------Contact me---------------->
+
+<div id="contact">
+    <div class="container contact-container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>arunpk1343@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> +971 528804701</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="Arunpk_CV_270724.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="Email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz-vdN4ntc53IEm51SmGjXwyQNiDqu5MotCQFd8rjgVdXHSZJBpRG_d0TBuPuy7RQtP/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
